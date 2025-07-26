@@ -1,21 +1,23 @@
 import logo from "./logo.svg";
-import { useMediaQuery } from "@mui/material";
-import { useTheme } from "@mui/material/styles";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import { ThemeProvider } from "@emotion/react";
+import { ThemeProvider } from "@mui/material/styles";
 import theme from "./styles/theme";
 import { lazy, Suspense } from "react";
-import Pages from "./pages/index";
+
+const HomePage = lazy(() => import("./pages/HomePage"));
+const Appbar = lazy(() => import("./components/appbar/index"));
+const Footer = lazy(() => import("./components/footer/index"));
 
 function App() {
-  const theme = useTheme();
-
-  const matches = useMediaQuery(theme.breakpoints.down("md"));
   return (
     <ThemeProvider theme={theme}>
       <Suspense fallback={<div>Loading...</div>}>
-        <Pages />
+        <Appbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+        <Footer />
       </Suspense>
     </ThemeProvider>
   );
