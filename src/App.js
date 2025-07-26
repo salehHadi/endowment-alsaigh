@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import { useMediaQuery } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import { ThemeProvider } from "@emotion/react";
+import theme from "./styles/theme";
+import { lazy, Suspense } from "react";
+import Pages from "./pages/index";
 
 function App() {
+  const theme = useTheme();
+
+  const matches = useMediaQuery(theme.breakpoints.down("md"));
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Pages />
+      </Suspense>
+    </ThemeProvider>
   );
 }
 
