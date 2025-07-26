@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/endowment-alsaigh/static/css/main.f93f10b3.css",
+    "main.js": "/endowment-alsaigh/static/js/main.48fdef57.js",
+    "static/js/598.d1992f1d.chunk.js": "/endowment-alsaigh/static/js/598.d1992f1d.chunk.js",
+    "static/js/453.d17144d0.chunk.js": "/endowment-alsaigh/static/js/453.d17144d0.chunk.js",
+    "static/media/heroImgDesk.svg": "/endowment-alsaigh/static/media/heroImgDesk.69a4949e4c2b977d08bc460da4ad7752.svg",
+    "static/media/teamBackground.svg": "/endowment-alsaigh/static/media/teamBackground.59f5044382799d879d9b4fb6314e5787.svg",
+    "static/media/mapChart.png": "/endowment-alsaigh/static/media/mapChart.8cf0025e921040d89cb4.png",
+    "static/media/newImg.png": "/endowment-alsaigh/static/media/newImg.84e4fb5afa13eea09f59.png",
+    "static/media/AgricultureIcon.svg": "/endowment-alsaigh/static/media/AgricultureIcon.24ed663581759c0ff7f22cc4928ab7c4.svg",
+    "static/media/PropertiesIcon.svg": "/endowment-alsaigh/static/media/PropertiesIcon.93362085d0b21fa3c71b76c7bdbc1395.svg",
+    "static/media/logoHorizontal.svg": "/endowment-alsaigh/static/media/logoHorizontal.a55ff6b8973ce83a01382f48c9b3513e.svg",
+    "static/media/calinderIcon.svg": "/endowment-alsaigh/static/media/calinderIcon.87eb340050be5888a666b4524fad50c4.svg",
+    "static/media/logo.svg": "/endowment-alsaigh/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/endowment-alsaigh/index.html",
+    "static/media/burgerIcon.svg": "/endowment-alsaigh/static/media/burgerIcon.078dc735fdc890f628598715b3c256ea.svg",
+    "main.f93f10b3.css.map": "/endowment-alsaigh/static/css/main.f93f10b3.css.map",
+    "main.48fdef57.js.map": "/endowment-alsaigh/static/js/main.48fdef57.js.map",
+    "598.d1992f1d.chunk.js.map": "/endowment-alsaigh/static/js/598.d1992f1d.chunk.js.map",
+    "453.d17144d0.chunk.js.map": "/endowment-alsaigh/static/js/453.d17144d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f93f10b3.css",
+    "static/js/main.48fdef57.js"
+  ]
+}
