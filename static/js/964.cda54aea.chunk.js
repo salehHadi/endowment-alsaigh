@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkendowment_alsaigh=self.webpackChunkendowment_alsaigh||[]).push([[964],{1964:(e,a,s)=>{s.d(a,{A:()=>n});s(5043);const n=s.p+"static/media/logoHorizontal.a55ff6b8973ce83a01382f48c9b3513e.svg"}}]);
+//# sourceMappingURL=964.cda54aea.chunk.js.map

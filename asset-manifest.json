@@ -1,9 +1,15 @@
 {
   "files": {
     "main.css": "/endowment-alsaigh/static/css/main.f93f10b3.css",
-    "main.js": "/endowment-alsaigh/static/js/main.48fdef57.js",
-    "static/js/598.d1992f1d.chunk.js": "/endowment-alsaigh/static/js/598.d1992f1d.chunk.js",
+    "main.js": "/endowment-alsaigh/static/js/main.bf65cfbc.js",
+    "static/js/598.285b485b.chunk.js": "/endowment-alsaigh/static/js/598.285b485b.chunk.js",
+    "static/js/890.bea0a666.chunk.js": "/endowment-alsaigh/static/js/890.bea0a666.chunk.js",
+    "static/js/49.f9b6b7f1.chunk.js": "/endowment-alsaigh/static/js/49.f9b6b7f1.chunk.js",
     "static/js/453.d17144d0.chunk.js": "/endowment-alsaigh/static/js/453.d17144d0.chunk.js",
+    "static/js/645.ff810f5f.chunk.js": "/endowment-alsaigh/static/js/645.ff810f5f.chunk.js",
+    "static/js/642.c769d956.chunk.js": "/endowment-alsaigh/static/js/642.c769d956.chunk.js",
+    "static/js/442.16cf2b20.chunk.js": "/endowment-alsaigh/static/js/442.16cf2b20.chunk.js",
+    "static/js/964.cda54aea.chunk.js": "/endowment-alsaigh/static/js/964.cda54aea.chunk.js",
     "static/media/heroImgDesk.svg": "/endowment-alsaigh/static/media/heroImgDesk.69a4949e4c2b977d08bc460da4ad7752.svg",
     "static/media/teamBackground.svg": "/endowment-alsaigh/static/media/teamBackground.59f5044382799d879d9b4fb6314e5787.svg",
     "static/media/mapChart.png": "/endowment-alsaigh/static/media/mapChart.8cf0025e921040d89cb4.png",
@@ -16,12 +22,18 @@
     "index.html": "/endowment-alsaigh/index.html",
     "static/media/burgerIcon.svg": "/endowment-alsaigh/static/media/burgerIcon.078dc735fdc890f628598715b3c256ea.svg",
     "main.f93f10b3.css.map": "/endowment-alsaigh/static/css/main.f93f10b3.css.map",
-    "main.48fdef57.js.map": "/endowment-alsaigh/static/js/main.48fdef57.js.map",
-    "598.d1992f1d.chunk.js.map": "/endowment-alsaigh/static/js/598.d1992f1d.chunk.js.map",
-    "453.d17144d0.chunk.js.map": "/endowment-alsaigh/static/js/453.d17144d0.chunk.js.map"
+    "main.bf65cfbc.js.map": "/endowment-alsaigh/static/js/main.bf65cfbc.js.map",
+    "598.285b485b.chunk.js.map": "/endowment-alsaigh/static/js/598.285b485b.chunk.js.map",
+    "890.bea0a666.chunk.js.map": "/endowment-alsaigh/static/js/890.bea0a666.chunk.js.map",
+    "49.f9b6b7f1.chunk.js.map": "/endowment-alsaigh/static/js/49.f9b6b7f1.chunk.js.map",
+    "453.d17144d0.chunk.js.map": "/endowment-alsaigh/static/js/453.d17144d0.chunk.js.map",
+    "645.ff810f5f.chunk.js.map": "/endowment-alsaigh/static/js/645.ff810f5f.chunk.js.map",
+    "642.c769d956.chunk.js.map": "/endowment-alsaigh/static/js/642.c769d956.chunk.js.map",
+    "442.16cf2b20.chunk.js.map": "/endowment-alsaigh/static/js/442.16cf2b20.chunk.js.map",
+    "964.cda54aea.chunk.js.map": "/endowment-alsaigh/static/js/964.cda54aea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f93f10b3.css",
-    "static/js/main.48fdef57.js"
+    "static/js/main.bf65cfbc.js"
   ]
 }
