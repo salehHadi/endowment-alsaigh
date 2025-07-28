@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Box, ListItemButton } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Logo from "../../assets/logoHorizontal.svg";
+import { useNavigate } from "react-router-dom";
 
 const TypographyText = styled(Box)(({ theme }) => ({
   fontSize: "14px",
@@ -10,6 +11,7 @@ const TypographyText = styled(Box)(({ theme }) => ({
 }));
 export default function AppbarDesktop() {
   const [isFixed, setIsFixed] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -46,7 +48,7 @@ export default function AppbarDesktop() {
           padding: "10px 0",
         }}
       >
-        <ListItemButton>
+        <ListItemButton onClick={() => navigate("/")}>
           <TypographyText variant="h6">الرئيسية</TypographyText>
         </ListItemButton>
         <ListItemButton>

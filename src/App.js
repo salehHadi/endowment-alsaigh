@@ -6,6 +6,7 @@ import theme from "./styles/theme";
 import { lazy, Suspense } from "react";
 
 const HomePage = lazy(() => import("./pages/HomePage"));
+const NewsDetails = lazy(() => import("./pages/NewsDetails"));
 const Appbar = lazy(() => import("./components/appbar/index"));
 const Footer = lazy(() => import("./components/footer/index"));
 
@@ -16,6 +17,7 @@ function App() {
         <Appbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/news-details/:id" element={<NewsDetails />} />
         </Routes>
         <Footer />
       </Suspense>

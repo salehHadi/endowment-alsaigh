@@ -1,0 +1,26 @@
+p {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.wp-block-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.wp-block-gallery figure {
+  margin: 0;
+  flex: 1 1 30%; /* Or adjust width as needed */
+  max-width: 30%;
+}
+
+.wp-block-gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}

@@ -70,14 +70,16 @@ export default function EndowmentPropertiesDesktop() {
         paddingBottom: "40px",
       }}
     >
-      <SectionTitle
-        sx={{
-          borderBottom: "3px solid white",
-          boxShadow: "0 2px 4px rgba(255, 255, 255, 0.4)",
-        }}
-      >
-        أملاك الوقف
-      </SectionTitle>
+      <Box sx={{ display: "flex", justifyContent: "center" }}>
+        <SectionTitle
+          sx={{
+            borderBottom: "3px solid white",
+            boxShadow: "0 2px 4px rgba(255, 255, 255, 0.4)",
+          }}
+        >
+          أملاك الوقف
+        </SectionTitle>
+      </Box>
 
       <SectionContainer>
         {cardItems.map((item, index) => (

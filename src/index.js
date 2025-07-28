@@ -4,14 +4,17 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router } from "react-router-dom";
+import { NewsProvider } from "./context/context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <Router basename="/endowment-alsaigh">
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </Router>
+  <NewsProvider>
+    <Router basename="/endowment-alsaigh">
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </Router>
+  </NewsProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

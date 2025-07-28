@@ -54,13 +54,15 @@ export default function ContactUsDesktop() {
         gap: "60px",
       }}
     >
-      <SectionTitle
-        sx={{
-          marginBottom: "4px",
-        }}
-      >
-        معلومات التواصل
-      </SectionTitle>
+      <Box sx={{ display: "flex", justifyContent: "center" }}>
+        <SectionTitle
+          sx={{
+            marginBottom: "4px",
+          }}
+        >
+          معلومات التواصل
+        </SectionTitle>
+      </Box>
 
       <ContactUsContainer>
         <ContactBox>
