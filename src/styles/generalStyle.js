@@ -5,7 +5,7 @@ export const SectionTitle = styled(Typography)(({ theme }) => ({
   fontSize: "32px",
   fontWeight: "700",
   borderBottom: "2px solid black",
-  boxShadow: "0 2px 4px rgba(151, 134, 72, 0.4)",
+  boxShadow: "0 4px 8px -2px rgba(0,0,0,0.12)",
   display: "inline-block",
   marginBottom: "40px",
   padding: "5px 10px",

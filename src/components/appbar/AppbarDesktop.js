@@ -60,7 +60,7 @@ export default function AppbarDesktop() {
         <ListItemButton>
           <TypographyText variant="h6">أعضاء مجلس النظارة</TypographyText>
         </ListItemButton>
-        <ListItemButton>
+        <ListItemButton onClick={() => navigate("/news")}>
           <TypographyText variant="h6">احدث الاخبار</TypographyText>
         </ListItemButton>
 

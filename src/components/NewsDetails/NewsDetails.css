@@ -2,6 +2,7 @@ p {
   display: block;
   width: 100%;
   text-align: center;
+  margin-bottom: 40px;
 }
 .wp-block-gallery {
   display: flex;
@@ -16,6 +17,9 @@ p {
   margin: 0;
   flex: 1 1 30%; /* Or adjust width as needed */
   max-width: 30%;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 8px;
 }
 
 .wp-block-gallery img {
@@ -23,4 +27,18 @@ p {
   height: auto;
   object-fit: cover;
   border-radius: 8px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.wp-block-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }

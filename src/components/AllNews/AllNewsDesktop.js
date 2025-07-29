@@ -1,8 +1,8 @@
 import React from "react";
-import { SectionTitle } from "../../../styles/generalStyle";
+import { SectionTitle } from "../../styles/generalStyle";
 import { Box, ListItemButton, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import calinderIcon from "../../../assets/calinderIcon.svg";
+import calinderIcon from "../../assets/calinderIcon.svg";
 import { useNavigate } from "react-router-dom";
 
 const LatestNewsContainer = styled(Box)(({ theme }) => ({
@@ -83,26 +83,13 @@ const CardContent = styled("h3")(({ theme }) => ({
   margin: " 0",
 }));
 
-const ButtonBox = styled(ListItemButton)(() => ({
-  padding: "5px 10px",
-  border: "1px solid #978648",
-  borderRadius: "8px",
-  boxShadow: "0 2px 4px rgba(151, 134, 72, 0.5)",
-}));
-
-const ButtonText = styled(Typography)({
-  fontSize: "20px",
-  color: "black",
-  fontWeight: "bold",
-});
-
 const HorizontalLine = styled("hr")(({ theme }) => ({
   width: "30%",
   border: "1px solid #978648",
   margin: "40px ",
 }));
 
-export default function LatestNewsDesktop({ latestNews }) {
+export default function AllNewsDesktop({ allNews }) {
   const [newsIndex, setNewsIndex] = React.useState(null);
 
   const navigate = useNavigate();
@@ -118,11 +105,11 @@ export default function LatestNewsDesktop({ latestNews }) {
       }}
     >
       <Box sx={{ display: "flex", justifyContent: "center" }}>
-        <SectionTitle>أخر الاخبار</SectionTitle>
+        <SectionTitle>جميع الأخبار</SectionTitle>
       </Box>
 
       <LatestNewsContainer>
-        {latestNews?.map((news) => (
+        {allNews?.map((news) => (
           <CardContainer
             key={news.ID}
             id={news.ID}
@@ -153,11 +140,6 @@ export default function LatestNewsDesktop({ latestNews }) {
           </CardContainer>
         ))}
       </LatestNewsContainer>
-
-      <ButtonBox onClick={() => navigate("/news")}>
-        <ButtonText>المزيد من الاخبار</ButtonText>
-      </ButtonBox>
-
       <HorizontalLine />
     </Box>
   );

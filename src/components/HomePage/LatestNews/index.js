@@ -9,7 +9,7 @@ import LatestNewsDesktop from "./LatestNewsDesktop";
 export default function Index() {
   const { allNews } = useContext(NewsContext);
 
-  const latestNews = allNews?.slice(0, 8) || [];
+  const latestNews = allNews?.slice(0, 4) || [];
 
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("md"));

@@ -3,6 +3,7 @@ import { Box, Container, ListItemButton, Typography } from "@mui/material";
 import heroImgDesktop from "../../../assets/heroImgDesk.svg";
 import { styled } from "@mui/material/styles";
 import { Colors } from "../../../styles/theme";
+import { useNavigate } from "react-router-dom";
 
 const TextContainer = styled(Box)(({ theme }) => ({
   display: "flex",
@@ -18,6 +19,7 @@ const Title = styled(Typography)(({ theme }) => ({
   fontWeight: "800",
   fontSize: "32px",
 }));
+
 const SubTitle = styled(Typography)(({ theme }) => ({
   fontWeight: "500",
   marginTop: "8px",
@@ -32,10 +34,14 @@ const CTA = styled(ListItemButton)(({ theme }) => ({
   textAlign: "center",
   padding: "10px 20px",
 }));
+
 const CTAText = styled(Typography)(({ theme }) => ({
   fontSize: "16px",
 }));
+
 export default function HeroSectionDesktop() {
+  const navigate = useNavigate();
+
   return (
     <Box
       sx={{
@@ -62,7 +68,7 @@ export default function HeroSectionDesktop() {
           <SubTitle variant="p" component="h1">
             يمتد الاثر، يحقق التنمية، يقلل الفقر
           </SubTitle>
-          <CTA>
+          <CTA onClick={() => navigate("/about-the-donor")}>
             <CTAText variant="p" component="h1">
               نبذه عن الواقف
             </CTAText>

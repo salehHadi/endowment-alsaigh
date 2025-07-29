@@ -9,7 +9,6 @@ export default function Index() {
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
-        marginTop: "120px",
       }}
     >
       <p
